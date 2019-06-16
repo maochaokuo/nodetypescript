@@ -1,0 +1,25 @@
+{
+  "name": "nodetypescript",
+  "version": "1.0.0",
+  "description": "steps\r 1. npm init -y",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maochaokuo/nodetypescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maochaokuo/nodetypescript/issues"
+  },
+  "homepage": "https://github.com/maochaokuo/nodetypescript#readme",
+  "devDependencies": {
+    "@types/node": "^12.0.8",
+    "typescript": "^3.5.2"
+  }
+}
