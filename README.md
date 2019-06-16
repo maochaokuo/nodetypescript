@@ -10,3 +10,10 @@ steps
 7. tsconfig.json:  "rootDir": "./src"   "outDir": "./lib"
 8. package.json:    "build": "tsc"
 9. npm run-script build
+10. node lib/main       run to test
+
+in VsCode:
+type <type-name>    will extract to import statement
+
+reference source code
+https://github.com/JeremyLikness/typescript-for-node/tree/master/TypeScriptProject

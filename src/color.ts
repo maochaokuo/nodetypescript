@@ -10,6 +10,7 @@ export class Colors extends Array<Color>{
     constructor(public name:string) {
         super();
         ['Red','Orange','Yellow','Green','Blue','Indigo','Violet'
-        ].forEach(color => this.push(new Color(color)));
+        ].forEach(color => 
+            this.push(new Color(color)));
     }
 }

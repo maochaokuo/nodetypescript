@@ -7,9 +7,10 @@ export class Animal implements INamed {
 }
 
 export class Animals extends Array<Animal> {
-    constructor (){
+    constructor (public name:string){
         super();
-        ['Lynx', 'Jaguar', 'Panther', 'Leopard', 'Tiger', 'Lion'].forEach
+        ['Lynx', 'Jaguar', 'Panther', 'Leopard', 'Tiger', 'Lion'
+        ].forEach
         (animal =>
             this.push(new Animal(name))
         );
